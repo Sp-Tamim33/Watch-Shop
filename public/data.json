@@ -2,72 +2,84 @@
     {
         "id": "abc1",
         "name": "Fossil Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "price": 120
     },
     {
         "id": "abc2",
         "name": "Omega Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
         "price": 130
     },
     {
         "id": "abc3",
         "name": "Seiko Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "price": 125
     },
     {
         "id": "abc4",
         "name": "Rolex Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "price": 190
     },
     {
         "id": "abc5",
         "name": "Unix Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1623998021450-85c29c644e0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1257&q=80",
         "price": 113
     },
     {
         "id": "abc6",
         "name": "Hublot Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1609587312208-cea54be969e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "price": 133
     },
     {
         "id": "abc7",
         "name": "Rolex Rol Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "price": 189
     },
     {
         "id": "abc8",
         "name": "MVMT Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1573261821759-fdd1b36d9ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "price": 179
     },
     {
         "id": "abc9",
         "name": "Gold Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1541778480-fc1752bbc2a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1296&q=80",
         "price": 127
     },
     {
         "id": "abc10",
         "name": "Eco-Drive Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1507428861205-e8aab693190e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1181&q=80",
         "price": 163
     },
     {
         "id": "abc11",
         "name": "Fossil Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1610897534349-7759782118b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "price": 182
     },
     {
         "id": "abc12",
         "name": "Breitling Watch",
+        "rating": 5,
         "img": "https://images.unsplash.com/photo-1600003014637-ff82a275e191?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1011&q=80",
         "price": 150
     }
