@@ -35,8 +35,8 @@ const Details = (props) => {
                     item.map(one => <List name={one.name} img={one.img} key={one.id} />)
                 }
             </div>
-            <button onClick={() => chooseButton(item)} class='btn btn-lg btn-outline-primary mt-5 me-5'>Choose 1</button>
-            <button onClick={reset} class='btn btn-lg btn-outline-primary mt-5' id='reset'>Reset</button>
+            <button onClick={() => chooseButton(item)} className='btn btn-lg btn-outline-primary mt-5 me-5'>Choose 1</button>
+            <button onClick={reset} className='btn btn-lg btn-outline-primary mt-5' id='reset'>Reset</button>
 
             <div className="choosen-item">
                 <h2 className='mb-3 mt-5'>Choosen Item : </h2>

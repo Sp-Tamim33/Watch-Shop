@@ -2,7 +2,7 @@ import React from 'react';
 import './ChooseItem.css'
 
 const ChooseItem = (props) => {
-    console.log(props.item);
+    // console.log(props.item);
     return (
         <div className='mt-2'>
             <div className='choose-div'>
