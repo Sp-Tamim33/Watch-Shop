@@ -1,17 +1,18 @@
-.list-div{
+.choose-div{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
-    background-color: #c7ecee7b;
     margin: 5px;
     border-radius: 10px;
+    background-color: #22a6b3;
+    color: white;
 }
 
-.list-div img{
+.choose-div img{
     width: 70px;
     border-radius: 10px;
 }
-.list-div p{
+.choose-div p{
     margin-top: 10px;
 }

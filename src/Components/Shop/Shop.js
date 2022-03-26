@@ -29,6 +29,8 @@ const Shop = () => {
         alert("you can add only 4 item ! try again !")
     }
 
+
+
     return (
         <div className='main-div'>
             <div className="watch-cart">
