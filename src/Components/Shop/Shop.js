@@ -23,7 +23,7 @@ const Shop = () => {
 
     // console.log(click)
 
-
+    // limit item 4
     if (click.length > 4) {
         click.splice(-1, 1);
         alert("you can add only 4 item ! try again !")
