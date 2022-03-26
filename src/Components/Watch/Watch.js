@@ -3,8 +3,14 @@ import './Watch.css'
 
 const Watch = (props) => {
     // console.log(props.item)
+    // console.log(props);
 
-    const { name, img, price, rating } = props.item;
+    const { item, } = props;
+    // console.log(item);
+
+    const { name, img, price, rating } = item;
+
+
 
     return (
         <div>
