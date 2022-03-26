@@ -6,7 +6,7 @@ import Details from '../Details/Details';
 const Shop = () => {
 
     const [watchs, setWatch] = useState([]);
-    const [click, setClick] = useState([]);
+    let [click, setClick] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
@@ -14,18 +14,30 @@ const Shop = () => {
             .then(data => setWatch(data))
     }, [])
 
+    const addToList = (item) => {
+        // console.log(item.name, item.id)
+        const newItem = [...click, item];
+        setClick(newItem)
+
+    }
+
+    // console.log(click)
 
 
+    if (click.length > 4) {
+        click.splice(-1, 1);
+        alert("you can add only 4 item ! try again !")
+    }
 
     return (
         <div className='main-div'>
             <div className="watch-cart">
                 {
-                    watchs.map(watch => <Watch key={watch.id} item={watch}></Watch>)
+                    watchs.map(watch => <Watch key={watch.id} item={watch} addToList={addToList}></Watch>)
                 }
             </div>
             <div className="watch-selected">
-                <Details></Details>
+                <Details item={click}></Details>
             </div>
         </div>
     );

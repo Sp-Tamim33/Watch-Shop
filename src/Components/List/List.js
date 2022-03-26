@@ -1,13 +1,16 @@
 import React from 'react';
+import './List.css'
 
 const List = (props) => {
 
-    return (
-        <div>
-            this is list
-            {
+    const { name, img } = props;
 
-            }
+
+
+    return (
+        <div className='list-div'>
+            <img src={img} alt="" />
+            <p>{name}</p>
         </div>
     );
 };

@@ -1,0 +1,17 @@
+.list-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: #c7ecee7b;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.list-div img{
+    width: 50px;
+    border-radius: 10px;
+}
+.list-div p{
+    margin-top: 10px;
+}

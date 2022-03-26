@@ -5,10 +5,11 @@ const Watch = (props) => {
     // console.log(props.item)
     // console.log(props);
 
-    const { item, } = props;
+    const { item, addToList } = props;
     // console.log(item);
 
-    const { name, img, price, rating } = item;
+    const { name, img, price, rating, } = item;
+
 
 
 
@@ -27,7 +28,7 @@ const Watch = (props) => {
                         <span><i class="fa fa-star" aria-hidden="true"></i></span>
                         <span><i class="fa fa-star" aria-hidden="true"></i></span>
                     </p>
-                    <button class="btn btn-outline-primary w-100">Add to List <i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+                    <button onClick={() => addToList(item)} class="btn btn-outline-primary w-100">Add to List <i class="fa fa-cart-plus" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
